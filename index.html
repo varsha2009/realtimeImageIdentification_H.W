@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Realtime Face Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <center>
+    <div class="header">
+    <h1><img src="https://www.freeiconspng.com/uploads/flower-icon--icon-search-engine-14.png" width="40px" height="40px">&nbsp;Realtime Face Identification App <img src="https://www.freeiconspng.com/uploads/flower-icon--icon-search-engine-14.png" width="40px" height="40px"></h2>
+    <div style="background-color: white; width: 25%; padding: 5px;border-radius: 5px;margin: 10px;">
+    <label style="font-size: large;">Modal is trained on :</label>
+    <h3 style="font-size: large; margin-top: 0px;" id="h3" class="btn btn-info">Mom | Dad | Varsha</h4>
+    </div>  
+    </div>
+  </center>     
+    <br>
+    <div class="btn btn-success" style="margin-right: 50px; box-shadow: 3px 3px 5px rgb(85, 84, 84);">Person : <span id="object_name"></span></div>
+    <div class="btn btn-warning" style="margin-left: 50px; box-shadow: 3px 3px 5px rgb(85, 84, 84);">Accuracy : <span id="accuracy_name"></span></div>
+    <div class="footer">Developed by - Varsha . D</div>
+    
+    <script src="main.js"></script>
+</body>
